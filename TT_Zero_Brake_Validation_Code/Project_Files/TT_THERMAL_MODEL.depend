@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1526408829 source:c:\users\martinhugo\dropbox\mm4gdm\tt_thermal_model\calculate_thermal_coefficients.cpp
+	<iostream>
+	<vector>
+	<string>
+	"thermal_model_functions.h"
+
+1526379813 c:\users\martinhugo\dropbox\mm4gdm\tt_thermal_model\thermal_model_functions.h
+
+1526408848 source:c:\users\martinhugo\dropbox\mm4gdm\tt_thermal_model\main.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<vector>
+	<fstream>
+	<sstream>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"thermal_model_functions.h"
+	"calculate_thermal_coefficients.h"
+
+1526373342 c:\users\martinhugo\dropbox\mm4gdm\tt_thermal_model\calculate_thermal_coefficients.h
+
+1526408829 source:c:\users\martinhugo\dropbox\mm4gdm\tt_thermal_model\thermal_model_functions.cpp
+	<iostream>
+	<string>
+	<iomanip>
+	<vector>
+	<fstream>
+	<sstream>
+	<math.h>
+	"thermal_model_functions.h"
+
