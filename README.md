@@ -15,13 +15,13 @@ The program developed takes in a lot of parameters (e.g. brake disc size, thickn
 
 ## Solving the problem
 *** 
-The basis of the solution is raw data recorded by a datalogger attached to the superbike when it competed on the race the year before. The datalogger recorded at a sampling rate of about 80 times a second and provided thousands of values of data (i.e. distance, velocity, motor rpm). 
+The basis of the solution is raw data recorded by a datalogger attached to the superbike, when it competed last year. The datalogger recorded at a sampling rate of about 80 times a second and provided thousands of values of useful data (i.e. distance, velocity, motor rpm). 
 
-The assumption was made in racing conditions the bike would only brake when absolutely needed, in corners. Hence the first portion of the algorithm sorts through the thousands of values for velocity, locates continuous loss of velocity and tags them as corners. The corner classifications are then sanitised (dummy values such as velocity losses of <1 m/s are removed), and using kinematic energy equations the energy needed to be dissipated per corner was calculated. 
+An assumption was made that in racing conditions the bike would only brake when in corners. Hence, the first portion of the algorithm sorts through the thousands of values for velocity, locates continuous loss of velocity and tags them as corners. The corner classifications are then sanitised (dummy values such as velocity losses of <1 m/s are removed), and using kinematic energy equations the energy needed to be dissipated by the brake discs per corner was calculated. 
 
-From the brake disc values, and the bike's and rider's mass, the brake disc temperature rise per corner was calculated. Which while very useful in brake validation, did not give the full picture if the brake disc was suitable for the race. 
+From the brake disc values, and the bike's total mass, the brake disc temperature rise per corner was calculated. While very useful in brake validation, did not give the full picture if the brake disc was suitable for the race. 
 
-Therefore, the next step was to calculate the cooling the brake disc would experience in between corners, this was calculated by getting cooling coefficients by experimentation, (attaching an infrared sensor to the superbike) and therefore integrating and applying Newton's Law of Cooling the brake disc temperature could be estimated at any given time. By knowing the disc brake temperature at any time, we can validate the brakes by checking if at any given point(s) it exceeds its lowest maximum service temperature. Hence fully validating the brakes.
+Therefore, the next step was to calculate the cooling the brake disc would experience in between corners, this was calculated by getting cooling coefficients by experimentation, (attaching an infrared sensor to the superbike) and therefore integrating and applying Newton's Law of Cooling, which allowed us to know the estimated brake disc temperature at any given time. By knowing the disc brake temperature at any time, we can validate the brakes by checking if at any given point(s) it exceeds its lowest maximum service temperature. Hence fully validating the brakes.
 
 
 
