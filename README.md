@@ -5,7 +5,7 @@ This repository contains the now completed code and documentation for the comple
 
 ## Code and Specifications
 ***
-All the available code is in the ```TT_Zero_Validation_Code``` folder in the ```master``` branch. It was coded in C++ using CodeBlocks (an [open source IDE](http://www.codeblocks.org/)) using the GNU GCC Compiler (also open source!). The project has around ~700 lines of code. There are attached documents which explain the formulae  and the methodology used to complete the brake validation, and the main algorithm. All project files can be found on the ```TT_Zero_Brake_Validation_Code``` folder. 
+All the available code is in the ```TT_Zero_Validation_Code```. It was coded in C++ using CodeBlocks (an [open source IDE](http://www.codeblocks.org/)) using the GNU GCC Compiler (also open source!). The project has around ~700 lines of code. There are attached documents which explain the formulae  and the methodology used to complete the brake validation, and the main algorithm. 
 
 ## Why validate the brakes?
 ***
