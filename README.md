@@ -23,6 +23,9 @@ From the brake disc values, and the bike's total mass, the brake disc temperatur
 
 Therefore, the next step was to calculate the cooling the brake disc would experience in between corners, this was calculated by getting cooling coefficients by experimentation, (attaching an infrared sensor to the superbike) and therefore integrating and applying Newton's Law of Cooling, which allowed us to know the estimated brake disc temperature at any given time. By knowing the disc brake temperature at any time, we can validate the brakes by checking if at any given point(s) it exceeds its lowest maximum service temperature. Hence fully validating the brakes.
 
+Here we can see the estimated final results.
 
+
+![image](https://user-images.githubusercontent.com/99181273/233596928-4946834f-cea9-4b5e-be95-bfae6dbb2076.png)
 
 
